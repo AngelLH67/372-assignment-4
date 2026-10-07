@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+  Name: Angel Lopez 
+  Date: 10/06/2026
+  CSC 372-01
+
+  This is the index.html page for my assignment 4 that shows the content for the T.V gallery.
+-->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T.V Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>TV Show Gallery</h1>
+
+    <form id="searchForm">
+      <label for="searchInput">Search for a show:</label>
+
+      <input type="search" id="searchInput" placeholder="Enter a show title..." autocomplete="off">
+
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main>
+    <p id="message"></p>
+
+    <section id="gallery" class="gallery"></section>
+  </main>
+
+  <footer>
+    Data provided by
+    <a href="https://www.tvmaze.com/" target="_blank" rel="noopener">
+      TVmaze.com
+    </a>,
+    licensed under
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">
+      CC BY-SA
+    </a>.
+  </footer>
+
+</body>
+
+</html>
