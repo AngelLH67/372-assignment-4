@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+    color: #222;
+}
+
+/* Header */
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 25px 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+#searchInput {
+    width: 300px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e63946;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #c92f3b;
+}
+
+/* Main */
+
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+#message {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+
+/* Gallery */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+/* Show Cards */
+
+.card {
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.poster {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    background-color: #ddd;
+}
+
+.card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card h2 {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+}
+
+.card p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.summary {
+    color: #444;
+}
+
+.info-label {
+    font-weight: bold;
+}
+
+.cast-title {
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.cast-list {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.tvmaze-link {
+    display: inline-block;
+    margin-top: auto;
+    padding: 10px 15px;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.tvmaze-link:hover {
+    background-color: #444;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 30px;
+    padding: 25px;
+    text-align: center;
+    background-color: #222;
+    color: white;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+}
+
